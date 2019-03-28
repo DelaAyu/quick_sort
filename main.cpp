@@ -3,6 +3,7 @@
 
 int partition(int ar[], int low, int high)
 {
+
     int pivot = ar[(low + high) / 2];
     while (low <= high)
     {
